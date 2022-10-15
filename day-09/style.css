@@ -1,0 +1,39 @@
+/* .text1 {
+    display: inline-block;
+}
+
+.subtext {
+    display: inline-block;
+}
+
+.text2 {
+    display: inline-blocks;
+} */
+
+/* .text1 {
+    display: flex;
+}
+.subtext {
+    display: flex;
+} */
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    border: 5px solid red;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:  center;
+}
+
+/* img {
+    margin: 30px;
+} */
